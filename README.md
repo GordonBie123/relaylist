@@ -21,8 +21,7 @@ Relaylist analyzes the emotional landscape of your text conversations and genera
 
 ## 🎬 Demo
 https://relaylist.streamlit.app
-
-*Screenshots available in `/docs/screenshots/`*
+(Pseudo data is included in the pasuedo_data folder in main)
 
 ## 🏗️ Architecture
 
