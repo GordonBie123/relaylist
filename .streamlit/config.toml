@@ -1,0 +1,16 @@
+[theme]
+# Spotify Dark Theme
+primaryColor = "#1DB954"        # Spotify Green
+backgroundColor = "#121212"      # Spotify Black
+secondaryBackgroundColor = "#181818"  # Spotify Dark Gray
+textColor = "#FFFFFF"            # White text
+font = "sans serif"
+
+[server]
+maxUploadSize = 50
+enableXsrfProtection = true
+enableCORS = false
+port = 8501
+
+[browser]
+gatherUsageStats = false

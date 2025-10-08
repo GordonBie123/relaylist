@@ -1,0 +1,47 @@
+/* === SIDEBAR TOGGLE BUTTON FIX === */
+/* Target the sidebar collapse button container */
+[data-testid="stSidebarCollapse"],
+[data-testid="collapsedControl"],
+button[kind="header"],
+[data-testid="baseButton-header"],
+[data-testid="baseButton-headerNoPadding"] {
+    position: relative !important;
+    width: 40px !important;
+    height: 40px !important;
+    overflow: hidden !important;
+}
+
+/* Hide ALL content inside the button including SVG and text */
+[data-testid="stSidebarCollapse"] *,
+[data-testid="collapsedControl"] *,
+button[kind="header"] *,
+[data-testid="baseButton-header"] *,
+[data-testid="baseButton-headerNoPadding"] * {
+    display: none !important;
+    visibility: hidden !important;
+    font-size: 0 !important;
+    width: 0 !important;
+    height: 0 !important;
+}
+
+/* Add the hamburger menu icon */
+[data-testid="stSidebarCollapse"]::before,
+[data-testid="collapsedControl"]::before,
+button[kind="header"]::before,
+[data-testid="baseButton-header"]::before,
+[data-testid="baseButton-headerNoPadding"]::before {
+    content: "☰" !important;
+    font-size: 1.5rem !important;
+    color: #FFFFFF !important;
+    /* font-family: 'Inter', sans-serif !important; */
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    position: absolute !important;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+    width: 100% !important;
+    height: 100% !important;
+    z-index: 10 !important;
+}
