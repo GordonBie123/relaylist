@@ -21,7 +21,7 @@ Relaylist analyzes the emotional landscape of your text conversations and genera
 
 ## 🎬 Demo
 https://relaylist.streamlit.app
-(Pseudo data is included in the pasuedo_data folder in main)
+(Pseudo data is included in the pasuedo_data folder in main, additionally song suggestion function will not work, link is just for app UI/UX and model analysis demo, please obtain own API key and run locally for song suggestion function)
 
 ## 🏗️ Architecture
 
