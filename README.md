@@ -20,8 +20,7 @@ Relaylist analyzes the emotional landscape of your text conversations and genera
 - **Multiple Preference Methods**: Genre selection, Spotify profile sync, or artist/track seeds
 
 ## 🎬 Demo
-
-![Relaylist Demo](docs/screenshots/demo.gif)
+https://relaylist.streamlit.app
 
 *Screenshots available in `/docs/screenshots/`*
 
