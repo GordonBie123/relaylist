@@ -169,7 +169,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 Gordon - gordonbie2@gmail.com
 
-Project Link: [https://github.com/yourusername/relaylist](https://github.com/GordonBie123/relaylist)
+Project Link: [https://github.com/GordonBie123/relaylist](https://github.com/GordonBie123/relaylist)
 
 ## ⚠️ Privacy & Security
 
